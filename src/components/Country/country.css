@@ -1,0 +1,61 @@
+.countryCardlist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 3rem;
+  width: 100%;
+  background: #d7dadd;
+  justify-items: center;
+  align-items: normal;
+}
+
+.countryCardlist.dark {
+  background: #2e2f30;
+}
+
+.country-details.h5 {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px 0;
+  color: aqua;
+}
+
+.countryTable {
+  display: grid;
+  width: 100%;
+  background: #d7dadd;
+  justify-items: center;
+  align-items: normal;
+}
+
+.countryTable.dark {
+  background: #000000;
+  color: white;
+  text-emphasis-color: white;
+}
+
+.tabletd {
+  background: #d7dadd;
+  color: black;
+}
+
+.tabletd.dark {
+  background: rgb(0, 0, 0);
+  color: white;
+}
+
+a {
+  color: black !important;
+  text-decoration: none !important;
+  margin: 5px;
+}
+
+.headerTable {
+  background: black;
+  color: white;
+}
+.card {
+  background: #ffffff;
+}
+.card.dark {
+  background: #b4b4b4;
+}

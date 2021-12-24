@@ -1,0 +1,30 @@
+.right {
+  float: left;
+  margin: 5px;
+}
+.left {
+  float: left;
+  font-weight: bold;
+  margin: 5px;
+}
+.left.dark {
+  color: white;
+}
+.right.dark {
+  color: white;
+}
+.detailsCol {
+  margin: 5px;
+}
+.imgCol {
+  width: 100%;
+  height: auto;
+}
+.container {
+  height: 100%;
+  overflow: auto;
+}
+.container.dark {
+  background: black;
+  color: white;
+}

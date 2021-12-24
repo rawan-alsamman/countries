@@ -1,0 +1,15 @@
+.searchbox {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 250px;
+  line-height: 30px;
+  background: #ffffff;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.searchbox.dark {
+  background: #d3d3d3;
+}

@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text-color);
+  background: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 10px hsla(200, 15%, 8%, 0.1);
+}
+
+.header.dark {
+  background: #404142;
+  color: var(--dark-mode-text);
+}
+
+.header i {
+  cursor: pointer;
+}
+
+.title {
+  margin: 15px;
+}
+
+.title.dark {
+  margin: 15px;
+  color: white;
+}
+.themeBtn {
+  transition-duration: 0.4s;
+  margin: "5px";
+  border: none !important;
+  background-color: white;
+  border-radius: 10pt;
+}
+
+.themeBtn:hover {
+  background-color: #4d4d4e; /* Green */
+  color: white;
+}
+
+.themeDiv {
+  margin: 15px;
+}

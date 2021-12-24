@@ -1,0 +1,23 @@
+.dropdown {
+  float: right;
+  margin: 5px;
+}
+
+.dropdown-toggle.btn-primary {
+  background-color: white;
+  color: rgb(44, 44, 44);
+  border: none;
+}
+.show > .btn-primary.dropdown-toggle {
+  background-color: white;
+  color: rgb(44, 44, 44);
+  border: none;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.25rem rgb(161 162 165 / 50%);
+}
+
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgb(161 162 165 / 50%);
+}
